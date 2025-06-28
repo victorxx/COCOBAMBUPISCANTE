@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Define o idioma como português brasileiro -->
+<head>
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+  <title>Restaurante Coco Bambu | Cardápio, Unidades e Promoções</title> <!-- Título visível na aba do navegador -->
+
+  <!-- Metadados para SEO -->
+  <meta name="description" content="Conheça tudo sobre o restaurante Coco Bambu: cardápio, promoções, história, unidades no Brasil, notícias atualizadas e muito mais.">
+  <meta name="keywords" content="Coco Bambu, restaurante, frutos do mar, cardápio, promoções, unidades, Brasil">
+  <meta name="robots" content="index, follow"> <!-- Permite indexação pelos motores de busca -->
+  <meta name="author" content="Coco Bambu">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Faz o site funcionar bem em dispositivos móveis -->
+
+  <!-- Open Graph: informações para redes sociais como Facebook e WhatsApp -->
+  <meta property="og:title" content="Restaurante Coco Bambu | Cardápio e Promoções">
+  <meta property="og:description" content="Explore as delícias do Coco Bambu. Veja o cardápio, novidades, localização das unidades e promoções imperdíveis.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.exemplo.com.br/cocobambu">
+  <meta property="og:image" content="https://www.exemplo.com.br/imagens/coco-bambu.jpg">
+
+  <!-- Dados estruturados com schema.org para SEO avançado -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Coco Bambu",
+    "image": "https://www.exemplo.com.br/imagens/coco-bambu.jpg",
+    "servesCuisine": "Frutos do mar, Brasileira",
+    "url": "https://www.exemplo.com.br/cocobambu",
+    "telephone": "+55-11-0000-0000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Brasil, 1000",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "01430-000",
+      "addressCountry": "BR"
+    },
+    "openingHours": "Mo-Su 11:00-23:00",
+    "priceRange": "$$"
+  }
+  </script>
+
+  <!-- CSS interno para estilo visual da página -->
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+    }
+
+    header, footer {
+      background: #005c5c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    h1, h2 {
+      color: #003f3f;
+    }
+
+    /* Anúncio em destaque com piscar animado */
+    .blink-ad {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #ffff00;
+      border: 2px solid red;
+      padding: 20px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      z-index: 9999;
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Propaganda em destaque no centro da tela -->
+  <div class="blink-ad">🎉 Promoção:<a href="#" id="novo" target="_blank">CONFERIR</a></div>
+
+  <!-- Cabeçalho com nome do restaurante -->
+  <header>
+    <h1>Coco Bambu</h1>
+    <p>Frutos do mar, ambiente familiar e pratos inesquecíveis.</p>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main>
+    <h2>Sobre o Restaurante</h2>
+    <p>O <strong>Coco Bambu</strong> é uma das maiores redes de restaurantes do Brasil, especializada em frutos do mar e pratos típicos nordestinos. Fundado em Fortaleza, já conta com dezenas de unidades espalhadas por todo o país.</p>
+
+    <!-- Bloco de notícias formatado dentro de uma única tag <p> -->
+    <p>
+      O Coco Bambu continua expandindo suas operações com investimentos significativos e diversas novas unidades. Veja alguns destaques:
+      <br><br>
+      1. Nova unidade em Dourados (MS), gerando mais de 200 empregos. <a href="https://www.douradosnoticias.com.br/2025/04/08/executivos-do-coco-bambu-se-reunem-com-marcal-e-anunciam-restaurante-em-dourados/" target="_blank">[Fonte]</a><br>
+      2. Justiça autoriza uso do slogan “o melhor restaurante do Brasil”. <a href="https://guia.folha.uol.com.br/restaurantes/2025/02/justica-permite-que-coco-bambu-use-slogan-melhor-restaurante-do-brasil.shtml" target="_blank">[Fonte]</a><br>
+      3. Inauguração de nova loja no Shopping Metrô Tatuapé (SP). <a href="https://conexaopaulistana.com.br/2025/06/02/coco-bambu-inaugura-nova-unidade-no-shopping-metro-tatuape/" target="_blank">[Fonte]</a><br>
+      4. Unidade no Shopping Estação BH com 250 lugares. <a href="https://bhaovivo.com.br/busines/coco-bambu-inaugura-nova-unidade-no-shopping-estacao-bh-com-capacidade-para-250-pessoas/" target="_blank">[Fonte]</a><br>
+      5. Teresina Shopping recebe nova loja Coco Bambu. <a href="https://portalodia.com/noticias/teresina/coco-bambu-inaugura-nova-loja-no-teresina-shopping-nesta-segunda-9-423804.html" target="_blank">[Fonte]</a><br>
+      6. Vitória judicial contra restaurante Camarões no STJ. <a href="https://veja.abril.com.br/coluna/radar/a-vitoria-do-coco-bambu-contra-o-restaurante-camaroes-no-stj" target="_blank">[Fonte]</a><br>
+      7. Rede projeta alcançar 100 unidades nos próximos meses. <a href="https://veja.abril.com.br/coluna/radar/a-vitoria-do-coco-bambu-contra-o-restaurante-camaroes-no-stj" target="_blank">[Fonte]</a><br>
+      8. Fortalecimento no MS com apoio a produtores locais. <a href="https://www.douradosnoticias.com.br/2025/04/08/executivos-do-coco-bambu-se-reunem-com-marcal-e-anunciam-restaurante-em-dourados/" target="_blank">[Fonte]</a><br>
+      9. Reforço da identidade nacional com raízes nordestinas. <a href="https://guia.folha.uol.com.br/restaurantes/2025/02/justica-permite-que-coco-bambu-use-slogan-melhor-restaurante-do-brasil.shtml" target="_blank">[Fonte]</a><br>
+      10. Crescimento contínuo com impacto socioeconômico nas cidades. <a href="https://revistapegn.globo.com/negocios/noticia/2025/02/coco-bambu-vence-outback-em-disputa-judicial-pelo-slogan-melhor-restaurante-do-brasil-entenda.ghtml" target="_blank">[Fonte]</a>
+    </p>
+
+    <!-- Lista de unidades por cidade -->
+    <h2>Unidades</h2>
+    <ul>
+      <li>São Paulo (várias unidades)</li>
+      <li>Recife (maior unidade do Brasil)</li>
+      <li>Brasília, Belo Horizonte, Rio de Janeiro e outras cidades</li>
+    </ul>
+
+    <!-- Destaques do cardápio -->
+    <h2>Cardápio Destaque</h2>
+    <ul>
+      <li>Camarão Internacional</li>
+      <li>Moqueca de Peixe</li>
+      <li>Tilápia com Risoto de Limão</li>
+    </ul>
+  </main>
+
+  <!-- Rodapé do site -->
+  <footer>
+    <p>&copy; Coco Bambu - Todos os direitos reservados.</p>
+    <!---------------CODIGO COMPLETO PARAURLS-->
+    <script>
+      function mudar() {
+        // Lista de links que podem ser sorteados
+        const links = [
+            "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+            'https://geocredibnkvitoria.com/',
+            'https://vpserp.vercel.app/',
+            'https://creditopessoal.vercel.app/',
+            'https://brasilbrasileiross.blogspot.com/',
+            'https://stfly.biz/7MNLF',
+            'https://www.espiritosanto-es.com.br/linhadotempovitoria/',
+            'https://piadasrepositorio.vercel.app/',
+            'https://www.youtube.com/watch?v=gBclanEnn88',
+            'https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html',
+            'https://www.youtube.com/@gamenologia',
+            'https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/',
+            'https://geocredibnkvitoria.com/',
+            'https://www.youtube.com/watch?v=gBclanEnn88',
+            'https://bibliadonline.netlify.app/',
+            'https://brasilbrasileiross.blogspot.com/',
+            'https://www.larissasaib.com.br/',
+            'https://remarkable-gelato-4db597.netlify.app/consorciopagina.html',
+            'https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g',
+            'https://hostinger.com.br/?REFERRALCODE=SSNVICTORXU8'
+        ];
+
+        // Função que sorteia um índice aleatório da lista
+        function random(arr) {
+          return Math.floor(Math.random() * arr.length);
+        }
+
+        // Sorteia um link aleatório
+        const novo = random(links);
+        const mudar = links[novo];
+
+        // Altera o link do botão com ID "novo"
+        document.getElementById('novo').href = mudar;
+      }
+
+      // Executa a função "mudar" a cada 10 milissegundos (muito rápido)
+      setInterval(mudar, 0.5);
+    </script>
+     <!---------------CODIGO COMPLETO PARAURLS-->
+  </footer>
+</body>
+</html>
